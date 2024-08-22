@@ -1,6 +1,4 @@
-package step01.quack;
-
-import step01.quack.QuackBehavior;
+package chapter01.step01.quack;
 
 public class Squeak implements QuackBehavior {
     @Override

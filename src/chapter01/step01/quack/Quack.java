@@ -1,4 +1,4 @@
-package step01.quack;
+package chapter01.step01.quack;
 
 public class Quack implements QuackBehavior{
     @Override

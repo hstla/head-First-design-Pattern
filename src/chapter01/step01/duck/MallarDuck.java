@@ -1,7 +1,7 @@
-package step01.duck;
+package chapter01.step01.duck;
 
-import step01.fly.FlyWithWings;
-import step01.quack.Quack;
+import chapter01.step01.fly.FlyWithWings;
+import chapter01.step01.quack.Quack;
 
 public class MallarDuck extends Duck {
 
