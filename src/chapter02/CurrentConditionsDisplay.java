@@ -19,6 +19,7 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
 
     @Override
     public void display() {
-        System.out.printf("현재 상태: 온도:  %d F, 습도: %d%%", temperature, humidity);
+        System.out.printf("현재 상태: 온도 %.2f F, 습도 %.2f%%", temperature, humidity);
+        System.out.println();
     }
 }
