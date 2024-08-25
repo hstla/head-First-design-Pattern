@@ -1,4 +1,4 @@
-package chapter02;
+package chapter02.weather.step01;
 
 public interface Subject {
     public void registerObserver(Observer o);

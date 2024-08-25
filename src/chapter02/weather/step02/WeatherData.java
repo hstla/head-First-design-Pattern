@@ -1,4 +1,4 @@
-package chapter02;
+package chapter02.weather.step02;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +8,18 @@ public class WeatherData implements Subject {
     private float temperature;
     private float humidity;
     private float pressure;
+
+    public float getPressure() {
+        return pressure;
+    }
+
+    public float getTemperature() {
+        return temperature;
+    }
+
+    public float getHumidity() {
+        return humidity;
+    }
 
     public WeatherData() {
         observers = new ArrayList<Observer>();
@@ -26,7 +38,7 @@ public class WeatherData implements Subject {
     @Override
     public void notifyObservers() {
         for (Observer observer : observers) {
-            observer.update(temperature, humidity, pressure);
+            observer.update();
         }
     }
 

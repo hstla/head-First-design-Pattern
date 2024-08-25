@@ -1,6 +1,4 @@
-package chapter02;
-
-import java.util.Observable;
+package chapter02.weather.step02;
 
 public class ForecastDisplay implements Observer, DisplayElement {
     private float currentPressure = 29.92f;
@@ -12,10 +10,9 @@ public class ForecastDisplay implements Observer, DisplayElement {
         weatherData.registerObserver(this);
     }
 
-    public void update(float temp, float humidity, float pressure) {
+    public void update() {
         lastPressure = currentPressure;
-        currentPressure = pressure;
-
+        currentPressure = weatherData.getPressure();
         display();
     }
 
