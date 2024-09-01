@@ -1,3 +1,5 @@
+package chapter03.beverage;
+
 import chapter03.beverage.Beverage;
 import chapter03.beverage.DarkRoast;
 import chapter03.beverage.Espresso;
