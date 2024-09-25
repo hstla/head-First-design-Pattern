@@ -1,4 +1,4 @@
-package chapter07.ducks;
+package chapter07.adapter.ducks;
 
 public class MallardDuck implements Duck {
     public void quack() {

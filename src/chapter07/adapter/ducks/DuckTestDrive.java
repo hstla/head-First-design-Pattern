@@ -1,10 +1,11 @@
-package chapter07.ducks;
+package chapter07.adapter.ducks;
 
 public class DuckTestDrive {
     public static void main(String[] args) {
         Duck duck = new MallardDuck();
 
         Turkey turkey = new WildTurkey();
+        Duck turkeyAdapter = new TurkeyAdapter(turkey);
 
 
         System.out.println("The Turkey says...");
@@ -15,7 +16,7 @@ public class DuckTestDrive {
         testDuck(duck);
 
         System.out.println("\nThe TurkeyAdapter says...");
-
+        testDuck(turkeyAdapter);
     }
 
     static void testDuck(Duck duck) {

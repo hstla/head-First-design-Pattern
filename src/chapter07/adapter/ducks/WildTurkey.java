@@ -1,4 +1,4 @@
-package chapter07.ducks;
+package chapter07.adapter.ducks;
 
 public class WildTurkey implements Turkey {
     public void gobble() {
