@@ -1,2 +1,4 @@
-package chapter08.templatemethod;public class CaffeineBeverage {
+package chapter08.templatemethod;
+
+public class CaffeineBeverage {
 }
