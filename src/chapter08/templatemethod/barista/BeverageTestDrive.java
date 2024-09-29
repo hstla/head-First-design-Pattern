@@ -1,4 +1,4 @@
-package chapter08.templatemethod;
+package chapter08.templatemethod.barista;
 
 public class BeverageTestDrive {
     public static void main(String[] args) {

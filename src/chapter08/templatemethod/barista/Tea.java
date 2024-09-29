@@ -1,4 +1,4 @@
-package chapter08.templatemethod;
+package chapter08.templatemethod.barista;
 
 public class Tea extends CaffeineBeverage {
     @Override
